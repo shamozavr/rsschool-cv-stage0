@@ -1,4 +1,5 @@
 # Roman Shashin
+![Employee's photo](./img/avatar.jpg)
 #### Junior Frontend Developer
 #### Contact information:
 **Phone:** +7 999 1219245
