@@ -56,3 +56,7 @@ function high(x){
     * HTML and CSS. Responsive layout and automation
 * RS Schools Course
     * «JavaScript/Front-end. Stage 0» (in progress)
+#### Languages
+* **English** - Intermediate/Upper-intermediate
+* **French** - A2
+* **Russian** - Native
