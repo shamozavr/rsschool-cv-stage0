@@ -45,3 +45,12 @@ function high(x){
   return resultWord
 }
 ```
+#### Education
+* Lobachevsky State University of Nizhni Novgorod
+    * National Economy, Economist
+* Linguistics University of Nizhny Novgorod
+    * Faculty of Translation, Translator
+* [HTML Academy](https://htmlacademy.ru/)
+    * HTML and CSS. Responsive layout and automation
+* RS Schools Course
+    * «JavaScript/Front-end. Stage 0» (in progress)
