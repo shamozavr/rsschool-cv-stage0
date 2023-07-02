@@ -62,4 +62,4 @@ function high(x){
 * **French** - A2
 * **Russian** - Native
 #### Certificates
-![Сертификат HTML Academy HTML и CSS. Адаптивная вёрстка и автоматизация](./img/HTML_academy_cert.jpg)
+![HTML Academy HTML and CSS Certificate. Responsive layout and automation](./img/HTML_academy_cert.jpg)
