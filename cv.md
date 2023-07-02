@@ -16,3 +16,32 @@ For now my only goal is studying.
 * Git, GitHub
 * VS Code, IntelliJ IDEA
 * Figma
+
+#### Code example:
+[Highest Scoring Word KATA from Codewars](https://www.codewars.com/kata/57eb8fcdf670e99d9b000272/train/javascript):
+```
+function high(x){
+  let arrOfWords = x.toLowerCase().split(' ')
+  let objOfWords = {};
+  for (let i = 0; i < arrOfWords.length; i++) {
+    let sum = 0;
+    let object = {}
+    for(let k = 0; k < arrOfWords[i].length; k++) {
+      sum = sum + arrOfWords[i][k].charCodeAt() - 97 + 1
+    }
+    object['index'] = i;
+    object['points'] = sum;
+    objOfWords[arrOfWords[i]] = object;
+  }
+  const entries = Object.entries(objOfWords);
+  let resultWord;
+  let max = 0;
+  for (i = 0; i < entries.length; i++) {
+    if (entries[i][1].points > max) {
+      max = entries[i][1].points
+      resultWord = entries[i][0]
+    }
+  }
+  return resultWord
+}
+```
