@@ -60,3 +60,5 @@ function high(x){
 * **English** - Intermediate/Upper-intermediate
 * **French** - A2
 * **Russian** - Native
+#### Certificates
+![Сертификат HTML Academy HTML и CSS. Адаптивная вёрстка и автоматизация](./img/HTML_academy_cert.jpg)
