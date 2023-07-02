@@ -1,15 +1,15 @@
 # Roman Shashin
 ![Employee's photo](./img/avatar.jpg)
-#### Junior Frontend Developer
-#### Contact information:
-**Phone:** +7 999 1219245
-**E-mail:** propeller1992@gmail.com
-**Telegram:** https://t.me/romanshashin
-**GitHub:** https://github.com/shamozavr
-#### Briefly About Myself:
+## Junior Frontend Developer
+## Contact information:
+**Phone:** +7 999 1219245  
+**E-mail:** propeller1992@gmail.com  
+**Telegram:** https://t.me/romanshashin  
+**GitHub:** https://github.com/shamozavr  
+## Briefly About Myself:
 After several years of work as a sales manager, I realized that I did not want to develop in this direction. I tried myself in different areas and settled on front-end development. The more knowlege and practice I had the more interesting the development seemed to me. I found myself enjoying creating new web interfaces, especially when the work right away.
 For now my only goal is studying.
-#### Skills and Proficiency:
+## Skills and Proficiency:
 * HTML5, CSS3
 * BEM
 * SASS/SCSS
@@ -18,7 +18,7 @@ For now my only goal is studying.
 * VS Code, IntelliJ IDEA
 * Figma
 
-#### Code example:
+## Code example:
 [Highest Scoring Word KATA from Codewars](https://www.codewars.com/kata/57eb8fcdf670e99d9b000272/train/javascript):
 ```
 function high(x){
@@ -46,9 +46,9 @@ function high(x){
   return resultWord
 }
 ```
-#### Portfolio
+## Portfolio
 [Sedona](https://github.com/shamozavr/1897333-sedona-28)
-#### Education
+## Education
 * Lobachevsky State University of Nizhni Novgorod
     * National Economy, Economist
 * Linguistics University of Nizhny Novgorod
@@ -57,9 +57,9 @@ function high(x){
     * HTML and CSS. Responsive layout and automation
 * RS Schools Course
     * «JavaScript/Front-end. Stage 0» (in progress)
-#### Languages
-* **English** - Intermediate/Upper-intermediate
-* **French** - A2
-* **Russian** - Native
+## Languages
+* **English** - Intermediate/Upper-intermediate  
+* **French** - A2  
+* **Russian** - Native  
 #### Certificates
 ![HTML Academy HTML and CSS Certificate. Responsive layout and automation](./img/HTML_academy_cert.jpg)
