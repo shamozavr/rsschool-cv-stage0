@@ -45,6 +45,8 @@ function high(x){
   return resultWord
 }
 ```
+#### Portfolio
+[Small Study Project](https://github.com/shamozavr/1897333-sedona-28)
 #### Education
 * Lobachevsky State University of Nizhni Novgorod
     * National Economy, Economist
