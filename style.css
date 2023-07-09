@@ -206,3 +206,7 @@ section:nth-of-type(2) ~ section:before {
         align-items:center;
     }
 }
+
+.visually-hidden {
+    display: none;
+}
