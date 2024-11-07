@@ -1,11 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+    <header class="header">
+        <div class="container header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="avatar">
+                <h2 class="visually-hidden">Аватар</h2>
+                <img class="avatar-image" src="./img/avatar.jpg" alt="avatar" width="250">
+            </section>
+            <section class="profile" id="profile">
+                <h1 class="profile__title">Roman Shashin</h1>
+                <p class="profile__profession">Junior Front-end Developer</p>
+            </section>
+            <section class="contacts" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="contacts__list">
+                    <li class="contacts__item contacts__phone">Phone: +7 999 1219245 </li>
+                    <li class="contacts__item contacts__email">E-mail:propeller1992@gmail.com </li>
+                    <li class="contacts__item contacts__telegram">https://t.me/romanshashin</li>
+                    <li class="contacts__item contacts__github">https://github.com/shamozavr</li>
+                </ul>
+            </section>
+            <section class="summary" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p class="summary__text">After several years of work as a sales manager, I realized that I did not want
+                    to develop in this direction. I tried myself in different areas and settled on front-end
+                    development. The more knowlege and practice I had the more interesting the development seemed to me.
+                    I found myself enjoying creating new web interfaces, especially when the work right away.</p>
+            </section>
+            <section class="skills" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="skills__list">
+                    <li class="skills__item">HTML5, CSS3</li>
+                    <li class="skills__item">BEM</li>
+                    <li class="skills__item">SASS/SCSS</li>
+                    <li class="skills__item">JavaScript Basics</li>
+                    <li class="skills__item">Git, GitHub</li>
+                    <li class="skills__item">VS Code, IntelliJ IDEA</li>
+                    <li class="skills__item">Figma</li>
+                </ul>
+            </section>
+            <section class="code" id="code">
+                <h2 class="section-title">Code</h2>
+                <a class="code__kata-link"
+                    href="https://www.codewars.com/kata/57eb8fcdf670e99d9b000272/train/javascript">Highest Scoring Word
+                    KATA from Codewars</a>
+                <br>
+                <code class="code__example">
+                    function high(x){<br>
+                        let arrOfWords = x.toLowerCase().split(' ')<br>
+                        let objOfWords = {};<br>
+                        for (let i = 0; i &lt; arrOfWords.length; i++) {<br>
+                          let sum = 0;<br>
+                          let object = {}<br>
+                          for(let k = 0; k &lt; arrOfWords[i].length; k++) {<br>
+                            sum = sum + arrOfWords[i][k].charCodeAt() - 97 + 1<br>
+                          }<br>
+                          object['index'] = i;<br>
+                          object['points'] = sum;<br>
+                          objOfWords[arrOfWords[i]] = object;<br>
+                        }<br>
+                        const entries = Object.entries(objOfWords);<br>
+                        let resultWord;<br>
+                        let max = 0;<br>
+                        for (i = 0; i &lt; entries.length; i++) {<br>
+                          if (entries[i][1].points > max) {<br>
+                            max = entries[i][1].points<br>
+                            resultWord = entries[i][0]<br>
+                          }<br>
+                        }<br>
+                        return resultWord<br>
+                      }<br>
+                </code>
+            </section>
+            <section class="courses" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul class="courses__list">
+                    <li class="courses__item">
+                        <a class="courses__link" href="https://htmlacademy.ru">HTML and CSS. Responsive layout and
+                            automation</a>
+                    </li>
+                    <li class="courses__item">
+                        <a class="courses__link" href="https://rs.school/">«JavaScript/Front-end. Stage 0» (in
+                            progress)</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="projects" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul class="projects__list">
+                    <li class="projects__item">
+                        <a href="https://github.com/shamozavr/1897333-sedona-28" class="project__link">Sedona</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="education" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul class="education__list">
+                    <li class="education__item">Lobachevsky State University of Nizhni Novgorod</li>
+                    <li class="education__item">Linguistics University of Nizhny Novgorod</li>
+                </ul>
+            </section>
+            <section class="languages" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="languages__list">
+                    <li class="languages__item">
+                        <h3 class="languages__name">English</h3>
+                        <p class="languages__level">Intermediate/Upper-intermediate</p>
+                    </li>
+                    <li class="languages__item">
+                        <h3 class="languages__name">French</h3>
+                        <p class="languages__level">A2</p>
+                    </li>
+                    <li class="languages__item">
+                        <h3 class="languages__name">Russian</h3>
+                        <p class="languages__level">Native</p>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <a class="footer__copyright-link" href="https://github.com/shamozavr">
+                <p class="footer__copyright-name">&#169; 2023 Roman Shashin</p>
+            </a>
+            <a class="footer__rsschool-logo" href="https://rs.school/js/">
+                <img class="footer__rsschool-logo-img" src="./img/rs_school_js.svg" alt="rs_school_js logo" width="200">
+            </a>
+        </div>
+    </footer>
 </body>
+
 </html>
